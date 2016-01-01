@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>False</Beta>
-  <Category>Network:Management Productivity: Tools:</Category>
-  <Name>postgresql</Name>
+  <Category>MediaApp:Music</Category>
+  <Name>koel</Name>
   <Description>
-  Postgresql Enterprise DB
+  koel music streaming server
   </Description>
   <Overview>
-  Postgresql for use with gitlab.
-  Install this docker before installing the gitlab docker.
+  Koel (also styled as koel, with a lowercase k) is a simple web-based personal audio streaming service written in Vue
+   at the client side and Laravel on server side. Targeting web developers, Koel embraces some of the more modern web technologies
+   – flexbox, audio and drag-and-drop API to name a few – to do its job.
   </Overview>
-  <Support></Support>
-  <Registry>https://registry.hub.docker.com/u/sameersbn/postgresql/</Registry>
-  <GitHub>https://github.com/sameersbn/docker-postgresql</GitHub>
-  <Repository>sameersbn/postgresql</Repository>
+  <Support>https://github.com/phanan/koel/wiki</Support>
+  <Registry>https://github.com/etopian/docker-koel</Registry>
+  <GitHub>https://hub.docker.com/r/etopian/docker-koel/</GitHub>
+  <Repository>etopian/docker-koel</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
     <Variable>
-      <Name>DB_NAME</Name>
+      <Name>DB_HOST</Name>
+      <Value>172.16.1.50</Value>
+    </Variable>
+    <Variable>
+      <Name>DB_DATABASE</Name>
       <Value>kael_production</Value>
     </Variable>
     <Variable>
-      <Name>DB_USER</Name>
+      <Name>DB_USERNAME</Name>
       <Value>kael_admin</Value>
     </Variable>
     <Variable>
-      <Name>DB_PASS</Name>
+      <Name>DB_PASSWORD</Name>
       <Value>password</Value>
     </Variable>
   </Environment>
@@ -36,14 +41,14 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/postgresql</HostDir>
-      <ContainerDir>/var/lib/postgresql</ContainerDir>
+      <HostDir>/mnt/user/Media/Music</HostDir>
+      <ContainerDir>/DATA/music</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version>fb527477</Version>
+  <Version></Version>
   <WebUI></WebUI>
-  <Banner>https://wiki.postgresql.org/images/1/1a/PostgreSQL.Banner.blue.468x60.gif</Banner>
-  <Icon>http://www.iconattitude.com/icons/open_icon_library/apps/png/256/postgresql.png</Icon>
+  <Banner></Banner>
+  <Icon></Icon>
   <ExtraParams></ExtraParams>
 </Container>
