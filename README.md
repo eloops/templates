@@ -1,4 +1,4 @@
-# Bungy's docker templates for unRAID
+# eloop docker templates for unRAID
 
-## Gitlab
-The gitlab docker template is to add sameersbn's gitlab container to unRAID. All credit for the container go to sameersbn (https://github.com/sameersbn/docker-gitlab).
+## PostGreSQL & MySQL
+Forked from here: https://github.com/jshridha/templates
