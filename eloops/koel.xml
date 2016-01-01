@@ -12,8 +12,8 @@
    – flexbox, audio and drag-and-drop API to name a few – to do its job.
   </Overview>
   <Support>https://github.com/phanan/koel/wiki</Support>
-  <Registry>https://github.com/etopian/docker-koel</Registry>
-  <GitHub>https://hub.docker.com/r/etopian/docker-koel/</GitHub>
+  <Registry>https://hub.docker.com/r/etopian/docker-koel</Registry>
+  <GitHub>https://github.com/etopian/docker-koel</GitHub>
   <Repository>etopian/docker-koel</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
