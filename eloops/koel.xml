@@ -34,6 +34,18 @@
       <Name>DB_PASSWORD</Name>
       <Value>password</Value>
     </Variable>
+    <Variable>
+      <Name>ADMIN_EMAIL</Name>
+      <Value>admin@tower.local</Value>
+    </Variable>
+    <Variable>
+      <Name>ADMIN_NAME</Name>
+      <Value>Admin</Value>
+    </Variable>
+    <Variable>
+      <Name>ADMIN_PASSWORD</Name>
+      <Value>password</Value>
+    </Variable>
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
