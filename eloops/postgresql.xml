@@ -4,13 +4,13 @@
   <Category>Network:Management Productivity: Tools:</Category>
   <Name>postgresql</Name>
   <Description>
-  Postgresql for use with gitlab
+  Postgresql Enterprise DB
   </Description>
   <Overview>
   Postgresql for use with gitlab.
   Install this docker before installing the gitlab docker.
   </Overview>
-  <Support>http://lime-technology.com/forum/index.php?topic=38930.0</Support>
+  <Support></Support>
   <Registry>https://registry.hub.docker.com/u/sameersbn/postgresql/</Registry>
   <GitHub>https://github.com/sameersbn/docker-postgresql</GitHub>
   <Repository>sameersbn/postgresql</Repository>
@@ -19,11 +19,11 @@
   <Environment>
     <Variable>
       <Name>DB_NAME</Name>
-      <Value>gitlabhq_production</Value>
+      <Value>kael_production</Value>
     </Variable>
     <Variable>
       <Name>DB_USER</Name>
-      <Value>gitlab</Value>
+      <Value>kael_admin</Value>
     </Variable>
     <Variable>
       <Name>DB_PASS</Name>
